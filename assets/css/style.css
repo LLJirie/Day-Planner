@@ -1,0 +1,29 @@
+/* .burrito {
+    border-style: solid none solid none;
+    text-align: center;
+    
+}
+button {
+    
+        display: inline-block;
+        padding: 10px 20px;
+        border-radius: 12px
+        
+}
+.input-group-lg{
+    margin-right: 0 ;
+} */
+
+.jumbotron {
+    text-align: center;
+    color: black;
+    border-radius: 0;
+    border-bottom: 10px solid black;
+  }
+  .container {
+    justify-content: center;
+  }
+  /* need past/present/future time color */
+  @media screen and (max-width: 760px) {
+    @media screen and (max-width: 480px)
+  
