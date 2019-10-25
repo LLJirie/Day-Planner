@@ -8,8 +8,7 @@
   <title>Document</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/locale/af.js"
-    integrity="sha256-I5ZXO8KcMnqNkrXU7baGig70nATYjNDnxxA2d40PcR8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
   <!-- <script>().format('YYYY MM DD')</script> -->
   <link rel="stylesheet" href="assets/css/style.css">
 
@@ -20,40 +19,79 @@
   <header class="jumbotron">
     <h1 class="x">Work Day Scheduler</h1>
     <h5 class="y">A simple calendar app for scheduling your work day</h5>
-    
-
-
-    <h2>Moment Date</h2>
-    
-    <!-- container for Moment.js output -->
-    
+    <h2 id="moment"></h2>
     <div id="displayMoment"></div>
-
-
   </header>
 
   <div class="container">
-
     <div class="row">
-
-      <div class="col-2">9am</div>
-
-
-      <textarea class="col-8 text"></textarea>
-
-      <button  class="col-2 save">Save</button>
+      <div class="col-1 time" value="9am">9am</div>
+      <textarea id=text9am class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="9am">Save</button>
     </div>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1 time" value="10am">10am</div>
+      <textarea id=text10am class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="10am">Save</button>
+    </div>
   </div>
-
-
-
+  <div class="container">
+    <div class="row">
+      <div class="col-1 time" value="11am">11am</div>
+      <textarea  id=text11am class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="11am">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1 time" value="12pm">12pm</div>
+      <textarea id=text12pm class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="12pm">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1 time" value="1pm">1pm</div>
+      <textarea id=text1pm class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="1pm">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1 time" value="2pm">2pm</div>
+      <textarea id=text2pm class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="2pm">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1 time" value="3pm">3pm</div>
+      <textarea id=text3pm class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="3pm">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1 time" value="4pm">4pm</div>
+      <textarea id=text4pm class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="4pm">Save</button>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-1 time" value="5pm">5pm</div>
+      <textarea id=text5pm class="col-10 text bg-secondary"></textarea>
+      <button class="col-1 save" name="5pm">Save</button>
+    </div>
+  </div>
+ 
+  
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="assets/js/script.js"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
 </body>
 
 </html>
