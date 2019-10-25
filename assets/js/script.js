@@ -54,10 +54,10 @@ $("#text3pm").val((localStorage.getItem("3pm")));
 $("#text4pm").val((localStorage.getItem("4pm")));
 $("#text5pm").val((localStorage.getItem("5pm")));
 
-if (day < 10.00) {
-  textarea.style.color.pink
-} else if (time === 10.00) {
-  textarea.style.color.blue;
-} else {
-  textarea.style.color.yellow;
-}
+// if (day < 10.00) {
+//   textarea.style.color.pink
+// } else if (time === 10.00) {
+//   textarea.style.color.blue;
+// } else {
+//   textarea.style.color.yellow;
+// }
