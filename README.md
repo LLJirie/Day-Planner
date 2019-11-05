@@ -11,7 +11,7 @@ SO THAT I can manage my time effectively
 
 Poor time management can result in missed meetings and deadlines or create the appearance of unprofessionalism. A daily planner allows employees to see their day at a glance, schedule time effectively, and improve productivity. 
 
-## Links
+## Libraries
 -"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
 -https://www.w3schools.com/jquery/html_attr.asp
 -https://jquery.com/
@@ -20,3 +20,6 @@ Poor time management can result in missed meetings and deadlines or create the a
 -https://stackoverflow.com/questions/48172889/-"https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"
 -https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 -https://www.webfx.com/blog/web-design/javascript-dates-moment-js/
+
+### Links
+Check it out! https://lljirie.github.io/Day-Planner/
